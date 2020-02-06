@@ -1,30 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="DTAC2018-Regular.otf">
+            <string>DTAC2018-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="dtacComponent_Example" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                    <view key="view" contentMode="scaleToFill" id="w36-Nr-4KE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bwo-jd-sHU" customClass="DtacStyleButton" customModule="dtacComponent_Example" customModuleProvider="target">
+                                <rect key="frame" x="112.5" y="60" width="150" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="ZAt-4w-B4G"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="cz1-S9-fZk"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="primary"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w7p-NZ-6WD" customClass="DtacStyleButton" customModule="component" customModuleProvider="target">
+                                <rect key="frame" x="112.5" y="129" width="150" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="BI4-jC-JRw"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="sbc-eG-56P"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="outline"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x0g-0b-F2P" customClass="DtacStyleButton" customModule="component" customModuleProvider="target">
+                                <rect key="frame" x="112.5" y="198" width="150" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="bcU-Nn-AfM"/>
+                                    <constraint firstAttribute="height" constant="44" id="ceW-vl-506"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DTAC2018-Regular" family="DTAC 2018" pointSize="17"/>
+                                <state key="normal" title="Button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="link"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ABf-5W-Kcy" customClass="DtacStyleButton" customModule="component" customModuleProvider="target">
+                                <rect key="frame" x="112.5" y="267" width="150" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="fMc-ge-9Hb"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="jnv-3n-y1t"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="list"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Bwo-jd-sHU" firstAttribute="top" secondItem="UTi-LM-yEt" secondAttribute="top" constant="60" id="1YV-mV-c0t"/>
+                            <constraint firstItem="Bwo-jd-sHU" firstAttribute="centerX" secondItem="UTi-LM-yEt" secondAttribute="centerX" id="8Wr-bB-wNv"/>
+                            <constraint firstItem="w7p-NZ-6WD" firstAttribute="top" secondItem="Bwo-jd-sHU" secondAttribute="bottom" constant="25" id="8rN-Bp-DZk"/>
+                            <constraint firstItem="x0g-0b-F2P" firstAttribute="top" secondItem="w7p-NZ-6WD" secondAttribute="bottom" constant="25" id="UF6-Os-9Sd"/>
+                            <constraint firstItem="x0g-0b-F2P" firstAttribute="centerX" secondItem="Bwo-jd-sHU" secondAttribute="centerX" id="cSE-t4-Da3"/>
+                            <constraint firstItem="ABf-5W-Kcy" firstAttribute="top" secondItem="x0g-0b-F2P" secondAttribute="bottom" constant="25" id="dUF-Fo-cOZ"/>
+                            <constraint firstItem="ABf-5W-Kcy" firstAttribute="centerX" secondItem="Bwo-jd-sHU" secondAttribute="centerX" id="e6e-hP-HOp"/>
+                            <constraint firstItem="w7p-NZ-6WD" firstAttribute="centerX" secondItem="Bwo-jd-sHU" secondAttribute="centerX" id="sS9-sI-Pg2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="UTi-LM-yEt"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="140" y="134"/>
         </scene>
     </scenes>
 </document>

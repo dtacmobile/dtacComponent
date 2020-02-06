@@ -1,29 +1,25 @@
-# dtacComponent
+# dtac Components for iOS
 
-[![CI Status](https://img.shields.io/travis/ragopor/dtacComponent.svg?style=flat)](https://travis-ci.org/ragopor/dtacComponent)
-[![Version](https://img.shields.io/cocoapods/v/dtacComponent.svg?style=flat)](https://cocoapods.org/pods/dtacComponent)
-[![License](https://img.shields.io/cocoapods/l/dtacComponent.svg?style=flat)](https://cocoapods.org/pods/dtacComponent)
-[![Platform](https://img.shields.io/cocoapods/p/dtacComponent.svg?style=flat)](https://cocoapods.org/pods/dtacComponent)
+dtac Components for iOS helps developers execute dtac design. Developed by a core team of engineers and UX designers at dtac, these components enable a reliable development workflow to build beautiful and functional iOS apps. 
 
-## Example
+## Trying out dtac Components
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+[CocoaPods](https://cocoapods.org/) is the easiest way to get started (if you're new to CocoaPods,
+check out their [getting started documentation](https://guides.cocoapods.org/using/getting-started.html).)
+
+To install CocoaPods, run the following commands:
+
+```bash
+gem install cocoapods
+```
 
 ## Requirements
 
-## Installation
+- Xcode 9 or higher
+- Minimum iOS deployment target of 9.0 or higher
+- CocoaPods 1.5 or higher
 
-dtacComponent is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+## Attributions
 
-```ruby
-pod 'dtacComponent'
-```
-
-## Author
-
-ragopor, ragopor@msn.com
-
-## License
-
-dtacComponent is available under the MIT license. See the LICENSE file for more info.
+dtac component uses the font dtac 2018 and Source Sans Pro,
+copyright 2020 TOTAL ACCESS COMMUNICATION PUBLIC COMPANY LIMITED.

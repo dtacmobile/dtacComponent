@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'dtacComponent'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of dtacComponent.'
+  s.version          = '0.0.1'
+  s.summary          = 'dtac Components for iOS helps developers execute dtac design. Developed by a core team of engineers and UX designers at dtac.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,19 +17,19 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+#  s.description      = <<-DESC
+#TODO: Add long description of the pod here.
+#                       DESC
 
-  s.homepage         = 'https://github.com/ragopor/dtacComponent'
+  s.homepage         = 'https://github.com/dtacmobile/dtacComponent'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ragopor' => 'ragopor@msn.com' }
-  s.source           = { :git => 'https://github.com/ragopor/dtacComponent.git', :tag => s.version.to_s }
+  s.author           = { "dtac" => "mobileapp@dtac.co.th" }
+  s.source           = { :git => 'https://github.com/dtacmobile/dtacComponent.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-
+  s.ios.deployment_target = '9.3'
+  s.swift_versions = ['5.0', '5.1']
   s.source_files = 'dtacComponent/Classes/**/*'
   
   # s.resource_bundles = {

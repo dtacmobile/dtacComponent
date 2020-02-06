@@ -1,0 +1,27 @@
+{
+  "name": "dtacComponent",
+  "version": "0.1.0",
+  "summary": "A short description of dtacComponent.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ragopor/dtacComponent",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ragopor": "ragopor@msn.com"
+  },
+  "source": {
+    "git": "https://github.com/ragopor/dtacComponent.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.3"
+  },
+  "swift_versions": [
+    "5.0",
+    "5.1"
+  ],
+  "source_files": "dtacComponent/Classes/**/*",
+  "swift_version": "5.1"
+}
