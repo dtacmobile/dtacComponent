@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DtacStyleButton: UIButton {
+public class DtacStyleButton: UIButton {
 
     @objc
     enum ButtonStyle: Int {
@@ -64,7 +64,7 @@ class DtacStyleButton: UIButton {
         updateStyle()
     }
     
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         super.awakeFromNib()
         updateStyle()
     }
@@ -117,7 +117,7 @@ class DtacStyleButton: UIButton {
         }
     }
     
-    override func setTitle(_ title: String?, for state: UIControl.State) {
+    override public func setTitle(_ title: String?, for state: UIControl.State) {
         super.setTitle(title, for: state)
         updateStyle()
     }

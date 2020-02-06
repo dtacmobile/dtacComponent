@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CircleButton: UIButton {
+public class CircleButton: UIButton {
     
     enum AmountMode {
         case amount(amount : String)
@@ -54,7 +54,7 @@ class CircleButton: UIButton {
         setupView()
     }
     
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         super.layoutSubviews()
         
         if self.circleLayer == nil {
@@ -66,7 +66,7 @@ class CircleButton: UIButton {
         self.circleLayer?.frame = self.bounds
     }
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
         UIView.animate(withDuration: 0.3, delay: 0.0, options: .curveEaseInOut, animations: {
             self.transform = CGAffineTransform(scaleX: 0.8, y: 0.8)
@@ -74,7 +74,7 @@ class CircleButton: UIButton {
         }, completion: nil)
     }
     
-    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override public func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesEnded(touches, with: event)
         
         UIView.animate(withDuration: 0.3, delay: 0.0, options: .curveEaseInOut, animations: {

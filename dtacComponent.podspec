@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'dtacComponent'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'dtac Components for iOS helps developers execute dtac design. Developed by a core team of engineers and UX designers at dtac.'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.source_files = 'dtacComponent/Classes/**/*'
   
    s.resource_bundles = {
-     'dtacComponent' => ['dtacComponent/**/*.{png,ttf,otf}']
+     'dtacComponent' => ['dtacComponent/**/*.*']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
