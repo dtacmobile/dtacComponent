@@ -27,13 +27,13 @@ Pod::Spec.new do |s|
   s.author           = { "dtac" => "mobileapp@dtac.co.th" }
   s.source           = { :git => 'https://github.com/dtacmobile/dtacComponent.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  
   s.ios.deployment_target = '9.3'
   s.swift_versions = ['5.0', '5.1']
   s.source_files = 'dtacComponent/Classes/**/*'
   
    s.ios.resource_bundle = {
-     'dtacComponent' => ['dtacComponent/Assets/*.png']
+     'dtacComponent' => ['dtacComponent/Assets/*']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
