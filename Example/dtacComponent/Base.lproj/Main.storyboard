@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bwo-jd-sHU" customClass="DtacStyleButton" customModule="dtacComponent_Example" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bwo-jd-sHU" customClass="DtacStyleButton" customModule="dtacComponent">
                                 <rect key="frame" x="112.5" y="60" width="150" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="ZAt-4w-B4G"/>
@@ -32,7 +32,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="style" value="primary"/>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w7p-NZ-6WD" customClass="DtacStyleButton" customModule="component" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w7p-NZ-6WD" customClass="DtacStyleButton" customModule="dtacComponent">
                                 <rect key="frame" x="112.5" y="129" width="150" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="BI4-jC-JRw"/>
@@ -43,7 +43,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="style" value="outline"/>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x0g-0b-F2P" customClass="DtacStyleButton" customModule="component" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x0g-0b-F2P" customClass="DtacStyleButton" customModule="dtacComponent">
                                 <rect key="frame" x="112.5" y="198" width="150" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="bcU-Nn-AfM"/>
@@ -55,7 +55,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="style" value="link"/>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ABf-5W-Kcy" customClass="DtacStyleButton" customModule="component" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ABf-5W-Kcy" customClass="DtacStyleButton" customModule="dtacComponent">
                                 <rect key="frame" x="112.5" y="267" width="150" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="fMc-ge-9Hb"/>

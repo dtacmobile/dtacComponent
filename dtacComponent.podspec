@@ -32,9 +32,9 @@ Pod::Spec.new do |s|
   s.swift_versions = ['5.0', '5.1']
   s.source_files = 'dtacComponent/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'dtacComponent' => ['dtacComponent/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'dtacComponent' => ['dtacComponent/Assets/*.png','dtacComponent/Font/*']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
