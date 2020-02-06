@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.source_files = 'dtacComponent/Classes/**/*'
   
    s.resource_bundles = {
-     'dtacComponent' => ['dtacComponent/Assets/*.png']
+     'dtacComponent' => ['dtacComponent/**/*.{png,ttf,otf}']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
