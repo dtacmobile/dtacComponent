@@ -35,5 +35,11 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>DTAC2018-Light.otf</string>
+		<string>DTAC2018-Bold.otf</string>
+		<string>DTAC2018-Regular.otf</string>
+	</array>
 </dict>
 </plist>

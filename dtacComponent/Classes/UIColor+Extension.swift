@@ -47,9 +47,6 @@ extension UIColor {
       return UIColor(red: 1.0, green: 216.0 / 255.0, blue: 216.0 / 255.0, alpha: 1.0)
     }
 
-    class var telenorlink: UIColor {
-      return UIColor(red: 0.0, green: 122.0 / 255.0, blue: 208.0 / 255.0, alpha: 1.0)
-    }
     
     class var textblack: UIColor {
       return UIColor(white: 26.0 / 255.0, alpha: 1.0)

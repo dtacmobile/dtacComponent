@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'dtacComponent'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = 'dtac Components for iOS helps developers execute dtac design. Developed by a core team of engineers and UX designers at dtac.'
 
 # This description is used to generate tags and improve search results.

@@ -15,6 +15,12 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6DAA630D5343DA875D4C9BB6 /* Pods_dtacComponent_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA18036B44C37F667D7ABF1B /* Pods_dtacComponent_Example.framework */; };
+		A6D919ED23F7971A00DF2B9D /* DTAC2018-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A6D919E723F7971A00DF2B9D /* DTAC2018-BoldItalic.otf */; };
+		A6D919EE23F7971A00DF2B9D /* DTAC2018-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A6D919E823F7971A00DF2B9D /* DTAC2018-Light.otf */; };
+		A6D919EF23F7971A00DF2B9D /* DTAC2018-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A6D919E923F7971A00DF2B9D /* DTAC2018-Bold.otf */; };
+		A6D919F023F7971A00DF2B9D /* DTAC2018-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A6D919EA23F7971A00DF2B9D /* DTAC2018-Regular.otf */; };
+		A6D919F123F7971A00DF2B9D /* DTAC2018-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A6D919EB23F7971A00DF2B9D /* DTAC2018-Italic.otf */; };
+		A6D919F223F7971A00DF2B9D /* DTAC2018-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A6D919EC23F7971A00DF2B9D /* DTAC2018-LightItalic.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		8699255664446A953D8F8CEC /* Pods-dtacComponent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dtacComponent_Tests.debug.xcconfig"; path = "Target Support Files/Pods-dtacComponent_Tests/Pods-dtacComponent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		94F8B30F728582F23066FECE /* Pods-dtacComponent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dtacComponent_Example.debug.xcconfig"; path = "Target Support Files/Pods-dtacComponent_Example/Pods-dtacComponent_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A42F081737A4473265D3AF62 /* Pods-dtacComponent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dtacComponent_Example.release.xcconfig"; path = "Target Support Files/Pods-dtacComponent_Example/Pods-dtacComponent_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A6D919E723F7971A00DF2B9D /* DTAC2018-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-BoldItalic.otf"; sourceTree = "<group>"; };
+		A6D919E823F7971A00DF2B9D /* DTAC2018-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-Light.otf"; sourceTree = "<group>"; };
+		A6D919E923F7971A00DF2B9D /* DTAC2018-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-Bold.otf"; sourceTree = "<group>"; };
+		A6D919EA23F7971A00DF2B9D /* DTAC2018-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-Regular.otf"; sourceTree = "<group>"; };
+		A6D919EB23F7971A00DF2B9D /* DTAC2018-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-Italic.otf"; sourceTree = "<group>"; };
+		A6D919EC23F7971A00DF2B9D /* DTAC2018-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-LightItalic.otf"; sourceTree = "<group>"; };
 		CA18036B44C37F667D7ABF1B /* Pods_dtacComponent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dtacComponent_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC071298101DC51F6DB944A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,6 +125,7 @@
 		607FACD21AFB9204008FA782 /* Example for dtacComponent */ = {
 			isa = PBXGroup;
 			children = (
+				A6D919E623F7971A00DF2B9D /* Fonts */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -157,6 +170,19 @@
 				64010650A9830E1C40BEB40E /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		A6D919E623F7971A00DF2B9D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A6D919E723F7971A00DF2B9D /* DTAC2018-BoldItalic.otf */,
+				A6D919E823F7971A00DF2B9D /* DTAC2018-Light.otf */,
+				A6D919E923F7971A00DF2B9D /* DTAC2018-Bold.otf */,
+				A6D919EA23F7971A00DF2B9D /* DTAC2018-Regular.otf */,
+				A6D919EB23F7971A00DF2B9D /* DTAC2018-Italic.otf */,
+				A6D919EC23F7971A00DF2B9D /* DTAC2018-LightItalic.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,8 +274,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				A6D919EF23F7971A00DF2B9D /* DTAC2018-Bold.otf in Resources */,
+				A6D919ED23F7971A00DF2B9D /* DTAC2018-BoldItalic.otf in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				A6D919F223F7971A00DF2B9D /* DTAC2018-LightItalic.otf in Resources */,
+				A6D919F123F7971A00DF2B9D /* DTAC2018-Italic.otf in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				A6D919F023F7971A00DF2B9D /* DTAC2018-Regular.otf in Resources */,
+				A6D919EE23F7971A00DF2B9D /* DTAC2018-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

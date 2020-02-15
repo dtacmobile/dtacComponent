@@ -1,19 +1,18 @@
 {
   "name": "dtacComponent",
-  "version": "0.1.0",
-  "summary": "A short description of dtacComponent.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/ragopor/dtacComponent",
+  "version": "0.0.4",
+  "summary": "dtac Components for iOS helps developers execute dtac design. Developed by a core team of engineers and UX designers at dtac.",
+  "homepage": "https://github.com/dtacmobile/dtacComponent",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "ragopor": "ragopor@msn.com"
+    "dtac": "mobileapp@dtac.co.th"
   },
   "source": {
-    "git": "https://github.com/ragopor/dtacComponent.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/dtacmobile/dtacComponent.git",
+    "tag": "0.0.4"
   },
   "platforms": {
     "ios": "9.3"

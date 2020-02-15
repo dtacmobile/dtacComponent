@@ -1,5 +1,5 @@
 PODS:
-  - dtacComponent (0.1.0)
+  - dtacComponent (0.0.4)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
@@ -32,7 +32,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  dtacComponent: 07be257265d09740c7eb43644adadd27d5068690
+  dtacComponent: 8719413e7ff3e40313445a8bae0ac29d0172f000
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
   Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52

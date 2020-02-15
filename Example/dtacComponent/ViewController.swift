@@ -7,12 +7,22 @@
 //
 
 import UIKit
+import dtacComponent
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, DTACGridItemDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let item = DTACGridItem(image: UIImage(named: "bad_alert_image"), title: "A Short Title Is Da Best Is Da Best Is Da Best");
+        item.center = view.center
+        item.delegate = self as! DTACGridItemDelegate
+        view.addSubview(item)
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    func gridItemDidTap(_ gridItem: DTACGridItem) {
+        print("gridItemDidTouch")
     }
 
     override func didReceiveMemoryWarning() {
